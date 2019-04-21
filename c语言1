@@ -1,0 +1,16 @@
+/*************************************************************************
+	> File Name: 3.c
+	> Author:xcl 
+	> Mail: 
+	> Created Time: 2019年04月16日 星期二 20时45分26秒
+ ************************************************************************/
+
+#include <stdio.h>
+int main() {
+    char str[100];
+    scanf("%[^\n]s", str);getchar();
+    printf("has %d digits\n", printf("%s", str));
+    scanf("%[^\n]s", str);
+    printf("has %d digits\n", printf("%s", str));
+    return 0;
+}
